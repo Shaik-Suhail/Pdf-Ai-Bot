@@ -22,25 +22,6 @@ The **PDF AI Bot** is a Python-based application that allows users to upload PDF
 - **Huggingface Transformers**: Used to utilize the models for NLP tasks.
 - **Tokenizer**: Converts text into tokens for further processing.
 
-Here is an updated version of the `README.md` with sample questions and responses:
-
-```markdown
-# PDF AI Bot
-
-## Project Overview
-The **PDF AI Bot** is a Python-based application that allows users to upload PDF documents and query the content of the PDF using natural language. The bot utilizes **Langchain**, **Huggingface models**, **Langchain's PyPDFLoader**, and a tokenizer for NLP processing.
-
-## Objectives
-- Ingest and parse PDF documents.
-- Tokenize the content for efficient processing.
-- Use pretrained models from Huggingface to generate relevant answers based on the content of the PDFs.
-
-## Functional Requirements
-- **PDF Ingestion**: The bot uses Langchain's `PyPDFLoader` to read and parse PDF content.
-- **Tokenization**: The content extracted from PDFs is tokenized for efficient processing and querying.
-- **Model Utilization**: Huggingface's pretrained models are used to generate answers based on the PDF content.
-
-
 
 ### 1. Clone the Repository
 First, clone the repository to your local machine:
