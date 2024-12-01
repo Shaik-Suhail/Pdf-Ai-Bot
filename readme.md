@@ -1,4 +1,6 @@
+Here is an updated version of the `README.md` with sample questions and responses:
 
+```markdown
 # PDF AI Bot
 
 ## Project Overview
@@ -55,6 +57,41 @@ python main.py
 
 The bot will load the PDF and allow you to query information based on its content.
 
+## Sample Questions and Responses
+
+Here are some example interactions with the PDF AI Bot:
+
+**Question 1**: _What is the main topic of this PDF?_
+
+**Response 1**: 
+```text
+The main topic of this document is "Artificial Intelligence and its Applications."
+```
+
+**Question 2**: _Can you summarize the conclusion of this document?_
+
+**Response 2**: 
+```text
+The conclusion emphasizes the importance of AI in shaping the future of technology and its impact on various industries.
+```
+
+**Question 3**: _What are the key findings mentioned in the report?_
+
+**Response 3**: 
+```text
+The key findings include:
+1. AI can improve efficiency in manufacturing.
+2. Machine learning models are transforming data analysis.
+3. Ethical concerns must be addressed as AI becomes more prevalent.
+```
+
+**Question 4**: _What are the recommendations given in the PDF?_
+
+**Response 4**: 
+```text
+The recommendations suggest investing in AI research and development, fostering collaboration between industry and academia, and addressing the ethical challenges associated with AI technology.
+```
+
 ## Structure of the Code
 - **main.py**: The entry point where the bot processes the PDF and handles user queries.
 - **pdf_loader.py**: Contains logic for loading and parsing PDF files.
@@ -73,11 +110,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Huggingface for the pretrained NLP models.
 ```
 
----
-
-### **How to Add This README File**
-1. In your project folder (`C:\Users\HP\Desktop\pdf bot`), create a file named `README.md`.
-2. Copy the above content and paste it into the `README.md` file.
-3. Save the file.
-
-Once your `README.md` file is ready, you can proceed with pushing your code to GitHub, and the README will automatically be displayed on the repository page. #
+This updated `README.md` includes a section with **Sample Questions and Responses**, so users can get an idea of how to interact with the bot.
